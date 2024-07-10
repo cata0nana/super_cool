@@ -11,6 +11,7 @@ import devices_gen
 def stealth_chr():
         options = webdriver.ChromeOptions()
         options.add_argument("start-maximized")
+        options.add_argument("--no-sandbox")
         options.add_argument('--disable-dev-shm-usage')        
 
         #https://xhamsterlive.com/Moly_dark
