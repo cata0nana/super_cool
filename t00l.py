@@ -57,7 +57,7 @@ def generate_name_add():
   			#print(t)
   			dom=random.randint(1,len(domains))
   			password_do=password0(8,12)
-  			suffix=password0(2,4)
+  			suffix=password0(3,5)
   			user_do=email_ja+suffix
   			real_name=name_j.lower()
   			email_do=email_ja+domains[dom-1]
