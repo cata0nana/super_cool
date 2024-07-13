@@ -29,8 +29,10 @@ import undetected_chromedriver as uc
 # urls_BVB="https://stripchat.com/vortexproject"
 # urls_BVB="https://xhamsterlive.com/vortexproject"
 # urls_BVB="https://xhamsterlive.com/chloe_vancab"
-urls_BVB="https://xhamsterlive.com/amia_kelly"
+urls_BVB="https://xhamsterlive.com/BebKonie"
 # urls_BVB="https://xhamsterlive.com/GiannaCarter"
+urls_BVB_2="https://xhamsterlive.com/lia_rosens"
+
 # urls_BVB="https://xhamsterlive.com/rozana_holmess"
 
 
@@ -355,6 +357,17 @@ def ads_class(driver,l0g):
 		logg=user_arr_info[5]+' '+user_arr_info[1]
 		ssave_succed_final(logg)
 		print('Stop 3000')
+		driver.get(urls_BVB_2)
+		try:
+			#pass
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div/div[3]/div/div/div/div[2]/div/div[1]/div/div[3]/div/div[1]/div[3]/button')))
+			SUCCESS_MSG_BUTTON.click()
+			print('hm... FAVORIT 222')
+			time.sleep(3)	
+		except Exception as e:
+			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="app"]/div[2]/div[3]/div/div/div/div[2]/div/div[1]/div/div[3]/div/div[1]/div[3]/button')))
+			SUCCESS_MSG_BUTTON.click()
+			# raise e
 	except Exception as error:
 		print (str(error))
 		# endiing(driver)
