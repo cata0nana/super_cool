@@ -371,6 +371,7 @@ def ads_class(driver,l0g):
 			SUCCESS_MSG_BUTTON.click()
 			# raise e
 		print('Stop 5000')
+		endiing(driver)
 	except Exception as error:
 		print (str(error))
 		# endiing(driver)
