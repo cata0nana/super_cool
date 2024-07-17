@@ -31,9 +31,9 @@ import undetected_chromedriver as uc
 # urls_BVB="https://stripchat.com/vortexproject"
 # urls_BVB="https://xhamsterlive.com/vortexproject"
 # urls_BVB="https://xhamsterlive.com/chloe_vancab"
-urls_BVB="https://xhamsterlive.com/BebKonie"
+# urls_BVB="https://xhamsterlive.com/BebKonie"
 # urls_BVB="https://xhamsterlive.com/GiannaCarter"
-urls_BVB_2="https://xhamsterlive.com/lia_rosens"
+urls_BVB="https://xhamsterlive.com/lia_rosens"
 
 # urls_BVB="https://xhamsterlive.com/rozana_holmess"
 
